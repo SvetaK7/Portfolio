@@ -1,0 +1,10 @@
+.containerNav{
+    /*не переопределяет, должно быть справа,а берет от общего контейнера слева*/
+    justify-content: flex-end;
+}
+.nav{
+    border: 1px solid;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
