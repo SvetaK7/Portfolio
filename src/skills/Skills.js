@@ -11,7 +11,7 @@ function Skills() {
                 <div className={s.skills}>
                     <Skill title={'Javascript'} description={'Web design is a similar process of creation, with the intention of presenting...'}/>
                     <Skill title={'React'} description={'Web design is a similar process of creation, with the intention of presenting...'}/>
-                    <Skill title={'Redux'} description={'Web design is a similar process of creation, with the intention of presenting...'}/>
+                    <Skill title={'Redux'} description={'Web design is a similar process of creation, with the intention of presenting...Web design is a similar process of creation, with the intention of pres'}/>
                 </div>
             </div>
         </div>
