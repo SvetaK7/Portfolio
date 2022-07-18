@@ -7,7 +7,11 @@ function Skills() {
     return (
         <div className={s.skillsBlock}>
             <div className={`${sContainer.container} ${s.skillsContainer}`}>
-                <h2 className={s.title}>My skills</h2>
+                <div className={s.blockTitle}>
+                    <div className={s.lineBefore}></div>
+                    <h2 className={s.title}>SKILLS</h2>
+                    <div className={s.lineAfter}></div>
+                </div>
                 <div className={s.skills}>
                     <Skill title={'Javascript'} description={'Web design is a similar process of creation, with the intention of presenting...'}/>
                     <Skill title={'React'} description={'Web design is a similar process of creation, with the intention of presenting...'}/>

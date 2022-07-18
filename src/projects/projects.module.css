@@ -1,13 +1,21 @@
-.skillsBlock {
+.projectsBlock{
     height: 100vh;
-    background-color: #c2e8f1;
+    background-color: #c2f1e1;
 }
-
-.skillsContainer {
-    align-items: center;
+.projectsContainer{
     flex-direction: column;
     justify-content: flex-start;
 }
+.projects{
+    /*border: 1px solid;*/
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
 
 .blockTitle {
     width: 100%;
@@ -40,19 +48,9 @@
     height: 2px;
     background-color: rgba(240, 248, 255, 0.34);
 }
-
 .title {
     width: calc(100%/3);
     text-align: center;
     margin: 5px 15px 5px 20px;
     font-size: 30px;
-}
-
-.skills {
-    /*border: 1px solid;*/
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
 }
