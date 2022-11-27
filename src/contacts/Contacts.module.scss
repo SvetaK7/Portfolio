@@ -1,0 +1,72 @@
+@import "src/common/styles/variables";
+
+.contactsBlock {
+    min-height: 100vh;
+    background-color: $bgColor;
+}
+/*.contacts{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: flex-end;*/
+/*}*/
+.allContacts{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.formContacts {
+    max-width: 300px;
+}
+.formContacts input{
+    padding: 10px 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 15px 1px;
+}
+
+.formContacts textarea{
+    height: 150px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 15px 1px;
+    padding: 10px 1px;
+}
+
+.buttonSend{
+    padding: 10px;
+}
+
+.myContacts{
+    /*width: calc(100%/2);*/
+    text-align: center;
+}
+.myContacts img{
+    width: 50px;
+    height: 50px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    margin: 20px 60px 20px 30px;
+}
+.location{
+    display: flex;
+    align-items: center;
+}
+.phone{
+    display: flex;
+    align-items: center;
+}
+.email{
+    display: flex;
+    align-items: center;
+}

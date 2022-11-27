@@ -1,16 +1,13 @@
 import React from 'react';
-import s from "./Contacts.module.css";
+import s from "./Contacts.module.scss";
 import sContainer from './../common/styles/Container.module.css'
+import {MainTitle} from "../common/components/MainTitle";
 
 function Contacts() {
     return (
         <div className={s.contactsBlock}>
             <div className={`${sContainer.container}`}>
-                    <div className={s.blockTitle}>
-                        <div className={s.lineBefore}></div>
-                        <h2 className={s.title}>CONTACTS</h2>
-                        <div className={s.lineAfter}></div>
-                    </div>
+                <MainTitle textTitle={'CONTACTS'}/>
                     <div className={s.allContacts}>
                         <div className={s.formContainer}>
                             <h3>Get in touch</h3>
@@ -19,7 +16,7 @@ function Contacts() {
                                 <input placeholder={'Email'}/>
                                 <textarea placeholder={'Message'}></textarea>
                             </form>
-                            <button className={s.buttonSend}>Send message</button>
+                            <button type={'submit'} className={s.buttonSend}>Send message</button>
                         </div>
                         <div className={s.myContacts}>
                             <h3>My contacts</h3>

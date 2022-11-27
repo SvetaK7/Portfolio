@@ -1,0 +1,43 @@
+.footerContainer {
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footerBlock {
+    height: 200px;
+    background-color: #474747;
+}
+
+.socialMedia{
+    color: white;
+}
+.socialMedia a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+
+}
+.socialMedia a:hover{
+    background-color: white;
+    border-radius: 2px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.socialMedia ul {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.copyright {
+    color: #878787;
+    text-align: center;
+}
+.copyright a{
+    color: #bdbdbd;
+}
+.copyright p{
+   margin: 10px;
+}
