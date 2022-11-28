@@ -5,7 +5,7 @@ import Project from "./project/Project";
 import {MainTitle} from "../common/components/MainTitle";
 import socialNetworkImg from "./../assets/image/social_network.jpg"
 import todolistImg from "./../assets/image/tdL5.jpg"
-import counterImg from "./../assets/image/counter.jpg"
+import counterImg from "./../assets/image/counter4.jpg"
 
 function Projects() {
     const socialNetwork = {
@@ -18,7 +18,8 @@ function Projects() {
     }
 
     const counter = {
-        backgroundImage: `url(${counterImg})`
+        backgroundImage: `url(${counterImg})`,
+
     }
     return (
 

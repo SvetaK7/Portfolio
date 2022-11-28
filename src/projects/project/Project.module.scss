@@ -5,21 +5,25 @@
     box-sizing: border-box;
     margin: 5px;
     box-shadow: 0 0 30px -4px RGB(0 0 0 / 20%);
+    overflow: hidden;
     .icon {
-        /*max-width: 360px;*/
-        height: 200px;
+        max-width: 350px;
+        height: 300px;
         background-position: center;
         display: flex;
         justify-content: center;
         align-items: center;
         cursor: pointer;
         overflow: hidden;
-        background-size: 100%;
-        /*background-size: cover;*/
+        //background-size: 100%;
+        background-size: cover;
         transition: 0.5s;
-        /*background-repeat: no-repeat;*/
+        background-repeat: no-repeat;
         &:hover{
-            background-size: 120%;
+            //background-size: 120%;
+            //-webkit-transform: scale(1.2); /*Указываем величину изображения при анимации*/
+            -ms-transform: scale(1.1); /*Указываем величину изображения при анимации*/
+            transform: scale(1.1);
         }
     }
     .information{

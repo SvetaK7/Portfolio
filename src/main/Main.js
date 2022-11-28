@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Main.module.css';
+import s from './Main.module.scss';
 import sContainer from './../common/styles/Container.module.css';
 import myPhoto from './img/iam.jpg'
 import gift from './../assets/image/gift.png'
@@ -15,7 +15,7 @@ function Main(){
     return (
         <div className={s.mainBlock}>
             <div className={sContainer.container}>
-                <div className={s.aboutMeInformation}>
+                <div className={s.aboutMeInformationWrap}>
                     <div className={s.mainPhoto}>
                         <img src={myPhoto} alt={'my photo'}/>
                     </div>

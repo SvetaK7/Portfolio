@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './MainTitle.module.css';
+import s from './MainTitle.module.scss';
 
 export function MainTitle(props) {
     return(
