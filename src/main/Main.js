@@ -2,14 +2,14 @@ import React from 'react';
 import s from './Main.module.scss';
 import sContainer from './../common/styles/Container.module.css';
 import myPhoto from './img/iam.jpg'
-import gift from './../assets/image/gift.png'
-import calendar from './../assets/image/calendar.png'
-import location from './../assets/image/location.png'
-import games from './../assets/image/games.png'
-import study from './../assets/image/study.png'
-import language from './../assets/image/language.png'
-import email from './../assets/image/email.png'
-import phone from './../assets/image/phone.png'
+import gift from './../assets/image/gift2.svg'
+import calendar from './../assets/image/calendar3.svg'
+import location from './../assets/image/location2.svg'
+import games from './../assets/image/games2.svg'
+import study from './../assets/image/study3.svg'
+import language from './../assets/image/language3.svg'
+import email from './../assets/image/email2.svg'
+import phone from './../assets/image/phone2.svg'
 
 function Main(){
     return (

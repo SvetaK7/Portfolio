@@ -21,7 +21,7 @@
     }
 
     .aboutMeWrap {
-      padding: 80px 0 80px 0;
+      padding: 80px 0 80px 20px;
       overflow: hidden;
       @media screen and (max-width: 1060px) {
         display: flex;
@@ -54,10 +54,13 @@
         }
 
         div {
-          font-size: 16px;
+          //font-size: 16px;
           padding: 0;
           text-align: left;
           margin-bottom: 10px;
+          img{
+            filter: invert(44%) sepia(47%) saturate(2620%) hue-rotate(155deg) brightness(98%) contrast(103%);
+          }
         }
       }
 

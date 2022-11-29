@@ -1,72 +1,55 @@
 @import "src/common/styles/variables";
 
 .contactsBlock {
-    min-height: 100vh;
-    background-color: $bgColor;
-}
-/*.contacts{*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: flex-end;*/
-/*}*/
-.allContacts{
-    display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    justify-content: space-evenly;
-    width: 100%;
-}
+  min-height: 100vh;
+  background-color: $bgColor;
 
-.formContainer{
+  .formContainer {
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     box-sizing: border-box;
-}
 
-.formContacts {
-    max-width: 300px;
-}
-.formContacts input{
-    padding: 10px 5px;
-    width: 100%;
-    box-sizing: border-box;
-    margin: 15px 1px;
-}
+    .formContacts {
+      max-width: 700px;
+      font-size: 16px;
+      font-weight: 400;
 
-.formContacts textarea{
-    height: 150px;
-    width: 100%;
-    box-sizing: border-box;
-    margin: 15px 1px;
-    padding: 10px 1px;
-}
+      input {
+        padding: 15px 10px;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 15px 1px;
+        background-color: white;
+        border: 1px solid #f2f2f2;
+        border-radius: 3px;
+      }
 
-.buttonSend{
-    padding: 10px;
-}
+      textarea {
+        padding: 15px 10px;
+        height: 150px;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 15px 1px;
+        background-color: white;
+      }
+    }
 
-.myContacts{
-    /*width: calc(100%/2);*/
-    text-align: center;
-}
-.myContacts img{
-    width: 50px;
-    height: 50px;
-    background-color: yellowgreen;
-    border-radius: 50%;
-    margin: 20px 60px 20px 30px;
-}
-.location{
-    display: flex;
-    align-items: center;
-}
-.phone{
-    display: flex;
-    align-items: center;
-}
-.email{
-    display: flex;
-    align-items: center;
+    .buttonSend {
+      padding: 13px 15px 13px 15px;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+      background-color: #00acc1;
+      font-weight: 700;
+      cursor: pointer;
+      color: white;
+      border-radius: 5px;
+      border: none;
+      &:hover {
+        box-shadow: 0 3px 6px 0 RGB(0 0 0 / 40%);
+      }
+    }
+  }
 }
